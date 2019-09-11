@@ -16,7 +16,7 @@ public class BinaryIterativeSearch implements Practice03Search{
 			}else if(arr[mid] > target){	//if the mid point is too high it adjusts the high point to equal the midpoint
 				high = mid-1;
 			}else{							//if the mid point is too low it will adjust the low point to equal the midpoint
-I				low = mid+1;
+				low = mid+1;
 			}	
 		}
 
